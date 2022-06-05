@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Calculadora - Isael Diroche</title>
+
+    <link rel="stylesheet" href="src/css/estilo.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="calculadora-display" id="operacion">0</div>
+        <div class="keypad-numbers">
+            <div class="keypad-button large">C</div>
+            <div class="keypad-button op">%</div>
+            <div class="keypad-button op">/</div>
+            <div class="keypad-button">7</div>
+            <div class="keypad-button">8</div>
+            <div class="keypad-button">9</div>
+            <div class="keypad-button op">*</div>
+            <div class="keypad-button">4</div>
+            <div class="keypad-button">5</div>
+            <div class="keypad-button">6</div>
+            <div class="keypad-button op">-</div>
+            <div class="keypad-button">1</div>
+            <div class="keypad-button">2</div>
+            <div class="keypad-button">3</div>
+            <div class="keypad-button op">+</div>
+            <div class="keypad-button cero">0</div>
+            <div class="keypad-button">.</div>
+            <div class="keypad-button op">=</div>
+        </div>
+    </div>
+
+    <div class="historial">
+        <h1>Historial</h1>
+        <hr>
+        <br/>
+        <div >
+            <div class="historial-caption" id="histo">
+                <ul>
+
+                </ul>
+            </div>
+
+
+        </div>
+
+        <button style="padding:5px;" onclick="vaciar_historial()">Eliminar historial</button>
+    </div>
+
+    <div class="footer">
+        <p>Programación Web - Raydelto Hernández</p>
+        <p>Instituto Tecnologico de las Americas (ITLA)</p>
+    </div>
+
+    <script src="src/js/calculadora.js"></script>
+</body>
+</html>
